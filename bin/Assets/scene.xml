@@ -1,0 +1,25 @@
+<Scene debug="true" >
+	<!--Model: Tiene shaders.
+	Node: NO tienen shaders.
+	Mover luz: A,W,D,X.
+	Botón S: Mostrar estadísticas del render.
+	-->
+	
+	<Model debug="true" file="../Assets/axes.osgt" />
+	
+	<!--
+	<Model debug="true" file="river/river_test.osgt" />
+	<Model debug="true" file="Afganistan/Afganistan.osgt" />
+	<!--<Model file="los_malos.osgt" />
+	<Model file="terreno_sin_agua.osgt"/>
+	<Model file="teapot_bumpspecular.osgt"/>
+	
+	<PAT name="patLight" position="0,50,50">
+		<Light num="1" 
+		position="0,0,0,1" 
+		direction="0,0,-1" 
+		diffuse="1,1,1,1" ambient="0.1,0.1,0.1,1" specular="0.1,0.1,0.1,1" 
+		debug="true"/> 	
+	</PAT>	
+	-->
+</Scene>
