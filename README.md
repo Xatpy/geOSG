@@ -3,9 +3,9 @@ geOSG
 
 DEMO: bin/geOSG_Demo.rar
 
------- geOSG ------
+# geOSG
 
-*** Description: 
+## Description: 
 geOSG is a 'toolkit' for Open Scene Graph that allows you to load models with shaders easily. 
 You can use the next shaders:
 - Phong Lighting
@@ -13,7 +13,7 @@ You can use the next shaders:
 - Parallax Mapping with Specular Map
 - Parallax Mapping with Specular and Opacity Map
 
-*** Instructions
+## Instructions
 Execute: bin\Debug\geOSG.exe
 Press key:
 - 1: No shader
@@ -25,7 +25,7 @@ Press key:
 - 7: Parallax Opacity 2 Lights (with specular)
 - ENTER: Toggle on/off light movement
 
-*** How does it works: 
+## How does it works: 
 The program detects the maps of the model and apply its shader automatically following the next rules:
 
 If the model has only diffuse, the shader is: Phong
@@ -34,7 +34,7 @@ If the model has diffuse AND normal AND height AND OPTIONALLY specular AND opaci
 
 Summary table:
                                     Phong          ParallaxTotal             ParallaxTotalOpacity            
-DIFFUSE                        X                       X                                X
+DIFFUSE                 	 X                       X                                X
 NORMAL                         -                       X                                X
 HEIGHT                         -                       X                                X
 SPECULAR                       -                       X(*)                             X
@@ -53,7 +53,7 @@ When you are creating your model with 3ds Max, you have to assign the material w
 
 
 
-------- XMLoadScene -------
+# XMLoadScene 
 XMLoadScene is an utility that loads an OSG scene directly from a XML file. So, you don't have to code anything and recompile the program to configure your scene. You can do it directly in the XML and run the program with the new changes.
 
 
